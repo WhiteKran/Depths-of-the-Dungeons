@@ -1,0 +1,1 @@
+Basically a (voxel based) survival game as true to life as possible, using real animal behaviors, plate tectonics, building methods, engineering, material collection and refinement methods, energy production, mechanical and electrical energy use, space travel, oxygen, meteorites, earth quakes, and other natural disasters.
