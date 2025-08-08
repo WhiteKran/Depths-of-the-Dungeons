@@ -1,1 +1,17 @@
-{}
+{
+	"nodes":[
+		{"id":"e35f4264045eadcb","x":-167,"y":-183,"width":250,"height":60,"type":"text","text":"<center>Generate World"},
+		{"id":"a632e5284ecde5cc","x":-167,"y":0,"width":250,"height":60,"type":"text","text":"<center>Gather Materials"},
+		{"id":"685f0b4f136856de","x":-167,"y":-100,"width":250,"height":60,"type":"text","text":"<center>Spawn Player"},
+		{"id":"6dfa711a2b046ad1","x":-167,"y":-280,"width":250,"height":60,"type":"text","text":"Create Character"},
+		{"id":"d7bcd615138fdfa2","x":-180,"y":94,"width":119,"height":50,"type":"text","text":"<center>Build"},
+		{"id":"893c34550838a92d","x":-24,"y":94,"width":107,"height":50,"type":"text","text":"<center>Craft"}
+	],
+	"edges":[
+		{"id":"ca56e9e1f5c92cd0","fromNode":"6dfa711a2b046ad1","fromSide":"bottom","toNode":"e35f4264045eadcb","toSide":"top"},
+		{"id":"1410d7392247ce7d","fromNode":"e35f4264045eadcb","fromSide":"bottom","toNode":"685f0b4f136856de","toSide":"top"},
+		{"id":"59e1e178f6ff00ec","fromNode":"a632e5284ecde5cc","fromSide":"bottom","toNode":"d7bcd615138fdfa2","toSide":"top"},
+		{"id":"ab9970b71d83d82f","fromNode":"a632e5284ecde5cc","fromSide":"bottom","toNode":"893c34550838a92d","toSide":"top"},
+		{"id":"28a1438261562f06","fromNode":"685f0b4f136856de","fromSide":"bottom","toNode":"a632e5284ecde5cc","toSide":"top"}
+	]
+}
